@@ -1,8 +1,14 @@
-#item{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
+#item {
+      width: 80px;
+      height: 80px;
+      background-color: #ec4899;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #ec4899;
+    }
+    #container{
+        display: flex;
+        gap: 20px;
+    }
 #item2{
     width: 100px;
     height: 100px;

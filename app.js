@@ -8,7 +8,17 @@
 // repeat:-1,
 // yoyo:true
 
-
+gsap.from('#item', {
+      y: -100,                   // Screen ke kaafi upar se shuru hoga
+      duration: 2,              // Complete hone ka time
+      delay: 0.5,               // Kitni der baad shuru ho
+      backgroundColor: "#38bdf8",// Start color (Animates to pink)
+      ease: "bounce.out",       // Realistic bounce effect!
+      repeat: -1,               // Infinite loop
+      repeatDelay: 0.5, 
+      stagger:0.5,        // Har cycle ke baad thoda pause
+      yoyo: true                // Wapas upar bhi jaye
+    });
 // })
 // gsap.to("#item",{
 
