@@ -1,0 +1,39 @@
+#item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#item2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(6, 3, 3);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+#item3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+    text-shadow: 1px 1px rgb(2, 88, 25);
+}
+
+svg{
+    background-color: crimson;
+}
