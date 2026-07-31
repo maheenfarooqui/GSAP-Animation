@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 1000px;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #224248;
+}
+
+.icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #FF9A00;
+}
+
+h1 {
+  color: #FF9A00;
+}
+
+.nav {
+  background-color: #224248;
+  position: fixed; 
+  top: 0;
+  right: -260px;
+  width: 260px; 
+  height: 100vh;
+  padding: 20px 40px;
+  overflow-x: hidden;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #FF9A00;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #FF9A00;
+}
+.admission{
+  background-color: #FF9A00;
+  padding: 10px 20px;
+  width: 100vw;
+  text-align: center;
+  font-size: 20px;
+  color: #224248;
+  margin-top: 10px;
+  position: fixed;
+  top: 300px;
+ 
+
+}
+marquee i {
+  margin-left: 10px;
+  color: #224248;
+  padding-top: 10px;
+
+}

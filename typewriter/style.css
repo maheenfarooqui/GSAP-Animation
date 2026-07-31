@@ -1,0 +1,30 @@
+/* span{
+    height: 50px;
+    color: red;
+    display: inline-block;
+    border: 2px solid black;
+    padding-right: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+} */
+
+#box{
+width: 30px;
+  height: 30px;
+  background-color: #7e6d2542;
+   /* Slightly brighter red/pink color */
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+
+  /* 🔥 Outer Glow Effect */
+  box-shadow: 
+    0 0 10px #82ad1e,   /* Subdued inner glow edge */
+    0 0 25px #ff4757,   /* Medium spread glow */
+    0 0 50px #ff4757;
+}
