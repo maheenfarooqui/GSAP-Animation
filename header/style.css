@@ -67,20 +67,18 @@ a {
 }
 .admission{
   background-color: #FF9A00;
-  padding: 10px 20px;
-  width: 100vw;
-  text-align: center;
-  font-size: 20px;
+  width: 35px ;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
   color: #224248;
-  margin-top: 10px;
   position: fixed;
-  top: 300px;
- 
-
+  top:510px;
+  left: 20px;
 }
-marquee i {
-  margin-left: 10px;
-  color: #224248;
-  padding-top: 10px;
-
+#aerrow{
+  display: inline-block;
 }

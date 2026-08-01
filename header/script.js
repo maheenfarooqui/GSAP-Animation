@@ -27,19 +27,20 @@ document.querySelector(".cross").addEventListener("click", function () {
 
 window.addEventListener("wheel", function (e) {
   if (e.deltaY > 0) {
-    console.log("up");
+    console.log("down"); // Fixed log
 
     gsap.to("#arrow", {
       rotate: 180,
-      duration: 0.3, 
+      duration: 0.3,
       ease: "power1.out",
     });
-  }else if (e.deltaY < 0) {
-    console.log("down");
+  } else if (e.deltaY < 0) {
+    console.log("up"); // Fixed log
+
     gsap.to("#arrow", {
       rotate: 0,
       duration: 0.3,
-      ease: "power1.out"
+      ease: "power1.out",
     });
   }
 });
